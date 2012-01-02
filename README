@@ -1,0 +1,13 @@
+Project Porcupine
+http://towerdive.com/forum/community-project/
+
+This is a Unity 3D project.  Please note that prefabs and other binary files are not versionable and
+files are likely to override one another rather than merge.  This may cause conflicts, which may
+require manual resolution.
+
+We will explore different .gitignore configurations as we move forward, and we may simply avoid
+using any prefab configuration whatsoever, in favor of pure programmatic instantiation of all
+objects save for a dummy GameObject with a single script that launches everything.
+
+Alternatively, we may want to simply have the master unity project be a download, and only
+commit the /Assets folder (and /Libary/*.assets) files.
