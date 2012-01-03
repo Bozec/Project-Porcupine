@@ -1,14 +1,15 @@
-Temp/*
-Library/*
-obj/*
+#Temp/*
+#Library/*
+#obj/*
 
-.DS_Store
-*.suo
-*.user
-*.pidb
-*.userprefs
-*.swp
+#.DS_Store
+#*.suo
+#*.user
+#*.pidb
+#*.userprefs
+#*.swp
 
+#!Library/*.asset
+#!Library/leanAndMean.*
 
-!Library/*.asset
-!Library/leanAndMean.*
+/Libary
