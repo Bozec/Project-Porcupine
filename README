@@ -3,7 +3,7 @@ http://towerdive.com/forum/community-project/
 
 This is a Unity 3D 3.5 project.
 
-== How to Contribute
+== HOW TO CONTRIBUTE
 
 1. Make sure you are running Unity 3D 3.5.
 
@@ -27,8 +27,20 @@ The command to clone our repository:
 
 This will launch Unity and cause it to create its /Library folder, which is not a part of the repository.
 
+== ADDITIONAL TOOLS
 
-== Unity and Version Control
+Blender 2.6+ for 3D image modelling
+	http://blender.org
+
+Gimp, Paint.NET, or Photoshop for texture editing
+	http://gimp.org
+  http://www.getpaint.net/
+
+	* Note that the texture format of choice is probably PNG, but Unity can work with layered PSD and TIFF
+	files very well. Experimentation will have to show what workflow is best, especially for integration
+	with Blender.
+
+== UNITY AND VERSION CONTROL
 
 Unity 3.5 will no longer explode when you attempt to use version control, but all non-script files are
 still binary files, which means that if two people make a change to a file (including models, textures,
@@ -46,3 +58,17 @@ Our project should not have scenes heavily populated with prefabs, avoiding most
 objects will be instantiated at run time.
 
 Of course, script source code is text and should merge cleanly.
+
+== BLENDER WORKFLOW
+
+Note that by default, Blender keeps up to 2 backup versions of your models, which can add a bunch of
+extra files under /Assets.  This doesn't interfere with Unity 3D, and is ignored by git, but you'll
+probably want to clean them out from time to time.  You can also change this behaviour in Blender:
+
+  Preferences -> File -> Save Versions:  Set to zero to disable.
+
+
+== LICENSING
+
+Still to be determined and is partially dependent on what 3rd-party assets (like textures) we want to 
+take advantage of.  The program code will likely be GPL.

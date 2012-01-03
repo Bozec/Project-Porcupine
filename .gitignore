@@ -1,16 +1,7 @@
-#Temp/*
-#Library/*
-#obj/*
-
-#.DS_Store
-#*.suo
-#*.user
-#*.pidb
-#*.userprefs
-#*.swp
-
-#!Library/*.asset
-#!Library/leanAndMean.*
-
+# Do not version Library or Temp (which only exists transiently)
 /Library
 /Temp
+
+# Do not version auto-generated Blender backup files
+*.blend1
+*.blend2
