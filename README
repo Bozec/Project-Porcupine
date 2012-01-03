@@ -8,20 +8,20 @@ This is a Unity 3D 3.5 project.
 1. Make sure you are running Unity 3D 3.5.
 
 This is currently in beta pre-release and is available here:
-		http://unity3d.com/unity/preview/
+	http://unity3d.com/unity/preview/
 
 2. Use Git to clone the repository.
 
 How to use Git is beyond the scope of this document.
 
 Getting start with Git:
-  http://progit.org/book/ch1-3.html
+	http://progit.org/book/ch1-3.html
 
 How to install Git on Windows:
 	http://help.github.com/win-set-up-git/
 
 The command to clone our repository:
-  git clone git@github.com:TeamPorcupine/Project-Porcupine.git
+	git clone git@github.com:TeamPorcupine/Project-Porcupine.git
 
 3. Go into the Assets/Scenes folder of the project and double-click "_dummy-scene.scene".
 
@@ -34,7 +34,7 @@ Blender 2.6+ for 3D image modelling
 
 Gimp, Paint.NET, or Photoshop for texture editing
 	http://gimp.org
-  http://www.getpaint.net/
+	http://www.getpaint.net/
 
 	* Note that the texture format of choice is probably PNG, but Unity can work with layered PSD and TIFF
 	files very well. Experimentation will have to show what workflow is best, especially for integration
@@ -73,7 +73,7 @@ Note that by default, Blender keeps up to 2 backup versions of your models, whic
 extra files under /Assets.  This doesn't interfere with Unity 3D, and is ignored by git, but you'll
 probably want to clean them out from time to time.  You can also change this behaviour in Blender:
 
-  Preferences -> File -> Save Versions:  Set to zero to disable.
+	Preferences -> File -> Save Versions:  Set to zero to disable.
 
 
 == LICENSING
