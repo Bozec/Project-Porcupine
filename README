@@ -34,10 +34,15 @@ Unity 3.5 will no longer explode when you attempt to use version control, but al
 still binary files, which means that if two people make a change to a file (including models, textures,
 prefabs, and sounds) at the same time, person's changes will ultimately overwrite the other's.
 
-This is to be expected, of course.  If two people change a 3D model, there's really no logical way to
-merge the changes.  Luckily, simultaneous modification of binary files should be relatively rare. The
-exception to this may be changes to the scene file, since hitting CTRL-S saves all your prefab changes
-AND ALSO saves the scene.  Since scene "_dummy-scene" contains nothing, it will always be safe to override
-each other's changes.
+This is to be expected, of course.  If two people change a 3D model or an image, there's really no
+logical way to merge the changes.  Luckily, simultaneous modification of binary files should be 
+relatively rare. 
+
+The exception to this might be the scene file, since it becomes "dirty" if you modify any prefabs on it.  
+However, since "_dummy-scene" contains nothing, it's always safe to override each other
+here, or (preferrably) to regenerate your copy from HEAD. 
+
+Our project should not have scenes heavily populated with prefabs, avoiding most issues. Instead, most
+objects will be instantiated at run time.
 
 Of course, script source code is text and should merge cleanly.
