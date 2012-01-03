@@ -40,6 +40,14 @@ Gimp, Paint.NET, or Photoshop for texture editing
 	files very well. Experimentation will have to show what workflow is best, especially for integration
 	with Blender.
 
+== GIT WORKFLOW
+
+You should:
+
+	- Use branches for virtually all work and push the branches to GitHub.
+	- Do not push changes to origin/master
+	- Only Pull Requests on GitHub should be used to merge changes into origin/master.
+
 == UNITY AND VERSION CONTROL
 
 Unity 3.5 will no longer explode when you attempt to use version control, but all non-script files are
