@@ -1,6 +1,7 @@
 # Do not version Library or Temp (which only exists transiently)
 /Library
 /Temp
+/Builds
 
 # Do not version auto-generated Blender backup files
 *.blend1
