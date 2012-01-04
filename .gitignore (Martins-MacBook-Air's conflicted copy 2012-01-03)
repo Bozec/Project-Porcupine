@@ -1,0 +1,17 @@
+Temp/*
+Library/*
+obj/*
+
+.DS_Store
+*.suo
+*.user
+*.pidb
+*.userprefs
+*.swp
+
+
+!Library/*.asset
+!Library/leanAndMean.*
+
+Assets/prefabs
+
